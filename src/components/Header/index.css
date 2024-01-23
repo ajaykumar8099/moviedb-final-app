@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  background-color: gray;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+button {
+  background-color: transparent;
+  margin-right: 10px;
+  color: white;
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 12px;
+}
+.unlist-movidb {
+  display: flex;
+  flex-wrap: wrap;
+}

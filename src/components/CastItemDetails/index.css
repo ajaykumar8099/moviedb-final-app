@@ -1,0 +1,26 @@
+.li-cast-container {
+  list-style-type: none;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: 'Roboto';
+  width: 30%;
+  box-shadow: 0px 4px 16px 0px #e3ebed;
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.name-cont {
+  padding: 10px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.name {
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 6s00;
+}

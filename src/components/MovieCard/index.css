@@ -1,0 +1,30 @@
+.movie-card {
+  width: 200px;
+  height: 200px;
+}
+.list-container {
+  margin: 20px;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+  box-shadow: 0px 4px 16px 0px #e3ebed;
+  text-decoration: none;
+  background-color: #ffffff33;
+}
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.avg {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.view-btn {
+  background-color: #5f4efa;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 9px;
+}

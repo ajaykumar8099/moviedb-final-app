@@ -1,0 +1,14 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 12px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.unlist-movie-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
