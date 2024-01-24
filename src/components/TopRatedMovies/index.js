@@ -101,13 +101,13 @@ class TopRatedMovies extends Component {
         <div className="bg-container">
           {isLoading ? this.Loader() : this.getData()}
           <div>
-          <button type="button" onClick={this.onClickPrev}>
-            Prev
-          </button>
-          <button type="button" onClick={this.onClickNext}>
-            Next
-          </button>
-        </div>
+            <button type="button" onClick={this.onClickPrev}>
+              Prev
+            </button>
+            <button type="button" onClick={this.onClickNext}>
+              Next
+            </button>
+         </div>
         </div>
       </>
     )
