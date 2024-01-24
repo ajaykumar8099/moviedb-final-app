@@ -82,21 +82,15 @@ class PopularHomePage extends Component {
     return (
       <div>
         <h1>Popular</h1>
-        <p>Page Number: {pageNumber}</p>
+        <p>
+          Page Number: <p>{pageNumber}</p>        
+        </p>
         <input type="textbox" />
         <ul className="unlist-movie-cards">
           {popularMoviesData.map(each => (
             <MovieCard key={each.id} movieData={each} />
           ))}
-        </ul>
-        <div>
-          <button type="button" onClick={this.onClickPrev}>
-            Prev
-          </button>
-          <button type="button" onClick={this.onClickNext}>
-            Next
-          </button>
-        </div>
+        </ul> 
       </div>
     )
   }
@@ -107,6 +101,14 @@ class PopularHomePage extends Component {
     return (
       <div className="bg-container">
         {isLoading ? this.Loader() : this.getData()}
+        <div>
+          <button type="button" onClick={this.onClickPrev}>
+            Prev
+          </button>
+          <button type="button" onClick={this.onClickNext}>
+            Next
+          </button>
+        </div>
       </div>
     )
   }
