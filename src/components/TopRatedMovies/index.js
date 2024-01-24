@@ -81,21 +81,15 @@ class TopRatedMovies extends Component {
     return (
       <div>
         <h1>Top Rated</h1>
-        <p>Page Number: {pageNumber}</p>
+        <p>
+          Page Number: <p>{pageNumber}</p>        
+        </p> 
         <input type="textbox" />
         <ul className="un-list-moviecard">
           {topRatedMoviesList.map(each => (
             <MovieCard key={each.id} movieData={each} />
           ))}
         </ul>
-        <div>
-          <button type="button" onClick={this.onClickPrev}>
-            Prev
-          </button>
-          <button type="button" onClick={this.onClickNext}>
-            Next
-          </button>
-        </div>
       </div>
     )
   }
@@ -106,6 +100,14 @@ class TopRatedMovies extends Component {
       <>
         <div className="bg-container">
           {isLoading ? this.Loader() : this.getData()}
+          <div>
+          <button type="button" onClick={this.onClickPrev}>
+            Prev
+          </button>
+          <button type="button" onClick={this.onClickNext}>
+            Next
+          </button>
+        </div>
         </div>
       </>
     )
